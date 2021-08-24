@@ -1,12 +1,12 @@
 import './App.css';
 
-import Primeiro from './components/Primeiro'
-import ComParametro from './components/ComParametro'
-import ComFilhos from './components/ComFilhos'
+import Primeiro from './components/basicos/Primeiro'
+import ComParametro from './components/basicos/ComParametro'
+import ComFilhos from './components/basicos/ComFilhos'
 import Card from './components/layout/Card'
-import Repeticao from './components/Repeticao'
-import Condicional from './components/Condicional'
-import CondicionalComIf from './components/CondicionalComIf'
+import Repeticao from './components/basicos/Repeticao'
+import Condicional from './components/basicos/Condicional'
+import CondicionalComIf from './components/basicos/CondicionalComIf'
 
 const App = (props) =>
     <div className="App">
@@ -36,10 +36,6 @@ const App = (props) =>
         <Card titulo="#01 - Primeiro Componente">
             <Primeiro />
         </Card>
-        
-        {/**/}
-        {/*<Primeiro />
-        */}
     </div>
 
 export default App
