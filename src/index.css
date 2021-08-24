@@ -2,7 +2,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 300;
     font-size: 1.4rem;
-    background-color: #444;
+    background-image: linear-gradient(135deg, rgb(184, 184, 184), #444, rgb(19, 18, 18));
     color: #fff;
     text-align: center;
 }
